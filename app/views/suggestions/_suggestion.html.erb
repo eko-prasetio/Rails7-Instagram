@@ -1,0 +1,15 @@
+<div class="d-flex justify-content-between">
+    <div class="d-flex">
+        <%= image_tag 'pp.png', class: "img-thumbnail rounded-circle border border-2", style: "width: 2.5rem" %>
+        <div class="d-flex flex-column mx-2">
+            <small class="fw-bold" style="overflow: hidden; text-overflow: elilipsis; white-space: nowrap; max-width:10rem">Simon</small>
+            <small class="fw-bold text-muted" style="font-size:.7rem; overflow: hidden; text-overflow: elilipsis; white-space: nowrap; max-width: 9.5rem">Suggested for you by instagram as he followes you</small>        
+        </div>
+    </div>
+
+    <%= link_to root_path, style: "text-decoration:none" do %>
+        <small class="fw-bold text-primary">Follow</small>
+    <% end %>
+
+
+</div>
